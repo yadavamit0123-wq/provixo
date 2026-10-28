@@ -10,6 +10,14 @@ subprojects {
     project.buildDir = "${rootProject.buildDir}/${project.name}"
 }
 subprojects {
+    project.configurations.configureEach {
+        resolutionStrategy {
+            force 'androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7'
+            force 'androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7'
+            force 'androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7'
+            force 'androidx.lifecycle:lifecycle-runtime-compose:2.8.7'
+        }
+    }
     project.evaluationDependsOn(':app')
 }
 
