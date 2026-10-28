@@ -10,7 +10,7 @@
 	</array>
 	<key>com.apple.developer.associated-domains</key>
 	<array>
-		<string>applinks:edemandweb.wrteam.me</string>
+		<string>applinks:provixo.in</string>
 	</array>
 	<key>com.apple.security.files.user-selected.read-only</key>
 	<true/>

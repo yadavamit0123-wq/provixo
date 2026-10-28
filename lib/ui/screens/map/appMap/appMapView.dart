@@ -200,7 +200,7 @@ class _AppMapViewState extends State<AppMapView> {
       children: [
         fmap.TileLayer(
           urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-          userAgentPackageName: 'wrteam.edemand.customer.e_demand',
+          userAgentPackageName: 'com.pt.provixo',
         ),
         if (osmPolylines.isNotEmpty) fmap.PolylineLayer(polylines: osmPolylines),
         if (osmMarkers.isNotEmpty)

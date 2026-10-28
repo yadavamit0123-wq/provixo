@@ -25,7 +25,7 @@ import GoogleMaps
     _ application: UIApplication,
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
   ) -> Bool {
-    GMSServices.provideAPIKey("ADD_YOUR_IOS_MAPS_API_KEY_HERE")
+    GMSServices.provideAPIKey("AIzaSyA_usa-2matJnaEuxFvNag8qhXL51w4vJM")
     return super.application(application, didFinishLaunchingWithOptions: launchOptions)
   }
 

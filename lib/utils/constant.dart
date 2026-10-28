@@ -1,12 +1,11 @@
 import 'package:e_demand/app/generalImports.dart';
 
-const String appName = "eDemand";
+const String appName = "ProVixo";
 
-const String domain = "PLACE_YOUR_DOMAIN_URL_HERE";
+const String domain = "https://home.provixo.in";
 
 // deepLinkDomainURL should look like:- your_web_domain or your_panel_domain
-const String deepLinkDomain =
-    "PLACE_YOUR_YOUR_WEB_DOMAIN_HERE OR PLACE_YOUR_PANEL_DOMAIN_HERE";
+const String deepLinkDomain = "https://provixo.in";
 
 const String baseUrl = "$domain/api/v1/";
 

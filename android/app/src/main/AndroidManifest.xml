@@ -14,7 +14,7 @@
         android:extractNativeLibs="true"
         android:fullBackupOnly="false"
         android:icon="@mipmap/ic_launcher"
-        android:label="eDemand"
+        android:label="ProVixo"
         android:requestLegacyExternalStorage="true"
         android:usesCleartextTraffic="true">
 
@@ -26,7 +26,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="ADD_YOUR_ANDROID_MAPS_API_KEY_HERE" />
+            android:value="AIzaSyA_usa-2matJnaEuxFvNag8qhXL51w4vJM" />
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_channel_id"
             android:value="basic_channel" />
@@ -69,8 +69,8 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:host="edemandweb.wrteam.me"
-                    android:scheme="edemand" />
+                    android:host="provixo.in"
+                    android:scheme="provixo" />
 
 
             </intent-filter>
@@ -91,10 +91,10 @@
 
         <meta-data
             android:name="vn.hunghd.flutterdownloader.NOTIFICATION_ICON"
-            android:resource="@drawable/ic_launcher_foreground" />
+            android:resource="@mipmap/ic_launcher_foreground" />
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"
-            android:resource="@drawable/ic_launcher_foreground" />
+            android:resource="@mipmap/ic_launcher_foreground" />
 
     </application>
 </manifest>

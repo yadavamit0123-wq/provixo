@@ -30,7 +30,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace "wrteam.edemand.customer.e_demand"
+    namespace "com.pt.provixo"
     compileSdk 36
     //ndkVersion flutter.ndkVersion
 
@@ -48,7 +48,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "wrteam.edemand.customer.e_demand"
+        applicationId "com.pt.provixo"
         minSdkVersion 24
         targetSdkVersion 36
         versionCode flutterVersionCode.toInteger()
@@ -67,8 +67,7 @@ android {
 
     buildTypes {
         release {
-            // signingConfig signingConfigs.release
-           signingConfig signingConfigs.debug
+            signingConfig signingConfigs.release
             shrinkResources true
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
